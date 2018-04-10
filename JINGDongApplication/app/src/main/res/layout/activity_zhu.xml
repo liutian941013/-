@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.liufan.jingdongapplication.view.ZhuActivity"
+    android:orientation="vertical">
+<FrameLayout
+    android:layout_weight="1"
+    android:id="@+id/fl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></FrameLayout>
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:orientation="horizontal">
+        <RadioButton
+            android:background="@drawable/home"
+            android:layout_weight="1"
+            android:button="@null"
+            android:id="@+id/home_rb"
+            android:layout_width="match_parent"
+            android:layout_height="120px"
+            android:checked="true"/>
+        <RadioButton
+            android:background="@drawable/classify"
+            android:layout_weight="1"
+            android:button="@null"
+            android:id="@+id/classify_rb"
+            android:layout_width="match_parent"
+            android:layout_height="120px" />
+        <RadioButton
+            android:background="@drawable/find"
+            android:layout_weight="1"
+            android:button="@null"
+            android:id="@+id/find_rb"
+            android:layout_width="match_parent"
+            android:layout_height="120px" />
+        <RadioButton
+            android:background="@drawable/shopping"
+            android:layout_weight="1"
+            android:button="@null"
+            android:id="@+id/shopping_rb"
+            android:layout_width="match_parent"
+            android:layout_height="120px" />
+        <RadioButton
+            android:background="@drawable/my"
+            android:layout_weight="1"
+            android:button="@null"
+            android:id="@+id/my_rb"
+            android:layout_width="match_parent"
+            android:layout_height="120px" />
+    </RadioGroup>
+</LinearLayout>
