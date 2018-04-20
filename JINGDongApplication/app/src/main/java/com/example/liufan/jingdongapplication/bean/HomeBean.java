@@ -103,24 +103,24 @@ public class HomeBean {
              * title : 小米(MI)Air 13.3英寸全金属轻薄笔记本(i5-7200U 8G 256G PCle SSD MX150 2G独显 FHD 指纹识别 Win10）银
              */
 
-            private int bargainPrice;
+            private String bargainPrice;
             private String createtime;
             private String detailUrl;
             private String images;
             private int itemtype;
             private int pid;
-            private int price;
+            private String price;
             private int pscid;
             private int salenum;
             private int sellerid;
             private String subhead;
             private String title;
 
-            public int getBargainPrice() {
+            public String getBargainPrice() {
                 return bargainPrice;
             }
 
-            public void setBargainPrice(int bargainPrice) {
+            public void setBargainPrice(String bargainPrice) {
                 this.bargainPrice = bargainPrice;
             }
 
@@ -164,11 +164,11 @@ public class HomeBean {
                 this.pid = pid;
             }
 
-            public int getPrice() {
+            public String getPrice() {
                 return price;
             }
 
-            public void setPrice(int price) {
+            public void setPrice(String price) {
                 this.price = price;
             }
 

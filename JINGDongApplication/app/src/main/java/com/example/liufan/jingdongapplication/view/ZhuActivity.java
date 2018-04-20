@@ -1,18 +1,17 @@
 package com.example.liufan.jingdongapplication.view;
 
+import android.content.Intent;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.RadioGroup;
-
 import com.example.liufan.jingdongapplication.R;
 import com.example.liufan.jingdongapplication.fragment.Classify_Fragment1;
 import com.example.liufan.jingdongapplication.fragment.Find_Fragment2;
 import com.example.liufan.jingdongapplication.fragment.Home_Fragment;
 import com.example.liufan.jingdongapplication.fragment.My_Fragment4;
 import com.example.liufan.jingdongapplication.fragment.Shopping_Fragment3;
+import com.uuzuche.lib_zxing.activity.CaptureActivity;
 
 public class ZhuActivity extends AppCompatActivity {
 
@@ -25,6 +24,7 @@ public class ZhuActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        getSupportActionBar().hide();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_zhu);
         rg = findViewById(R.id.rg);

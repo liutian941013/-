@@ -14,7 +14,7 @@
     <RadioGroup
         android:id="@+id/rg"
         android:layout_width="match_parent"
-        android:layout_height="120px"
+        android:layout_height="65dp"
         android:orientation="horizontal">
         <RadioButton
             android:background="@drawable/home"
@@ -22,7 +22,7 @@
             android:button="@null"
             android:id="@+id/home_rb"
             android:layout_width="match_parent"
-            android:layout_height="120px"
+            android:layout_height="65dp"
             android:checked="true"/>
         <RadioButton
             android:background="@drawable/classify"
@@ -30,27 +30,27 @@
             android:button="@null"
             android:id="@+id/classify_rb"
             android:layout_width="match_parent"
-            android:layout_height="120px" />
+            android:layout_height="65dp" />
         <RadioButton
             android:background="@drawable/find"
             android:layout_weight="1"
             android:button="@null"
             android:id="@+id/find_rb"
             android:layout_width="match_parent"
-            android:layout_height="120px" />
+            android:layout_height="65dp" />
         <RadioButton
             android:background="@drawable/shopping"
             android:layout_weight="1"
             android:button="@null"
             android:id="@+id/shopping_rb"
             android:layout_width="match_parent"
-            android:layout_height="120px" />
+            android:layout_height="65dp" />
         <RadioButton
             android:background="@drawable/my"
             android:layout_weight="1"
             android:button="@null"
             android:id="@+id/my_rb"
             android:layout_width="match_parent"
-            android:layout_height="120px" />
+            android:layout_height="65dp" />
     </RadioGroup>
 </LinearLayout>

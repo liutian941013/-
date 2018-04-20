@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:focusable="false"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/child_ck"/>
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_marginLeft="25dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/child_sd"/>
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cjild_name"
+                android:text="你好啊我来拉别跑啊"/>
+            <TextView
+                android:layout_marginTop="60px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cjild_price"
+                android:text="你好啊我来拉别跑啊"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="-150dp"
+            android:layout_marginTop="90dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:focusable="false"
+                android:id="@+id/jian"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/shopcart_minus_grey"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed"
+                android:background="@drawable/shopcart_add_btn"
+                android:paddingBottom="2dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="2dp"
+                />
+            <ImageView
+                android:focusable="false"
+                android:id="@+id/jia"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/shopcart_add_red"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
